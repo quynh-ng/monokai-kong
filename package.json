@@ -1,0 +1,22 @@
+{
+    "name": "monokai-kong",
+    "displayName": "Monokai Kong",
+    "description": "A more exciting dark theme for Visual Studio Code with Monokai code coloring",
+    "version": "1.0.0",
+    "publisher": "Quynh Nguyen",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Kong",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai-kong-color-theme.json"
+            }
+        ]
+    }
+}
