@@ -165,21 +165,25 @@
 			"name": "Inherited Class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"fontStyle": "underline"
+				"fontStyle": "underline",
+				"foreground": "#61afef"
 			}
 		},
 		{
 			"name": "Interface",
 			"scope": "entity.name.type.interface",
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#61afef"
 			}
 		},
 		{
 			"name": "Function",
 			"scope": [
 				"entity.name.function",
-				"support.function"
+				"support.function",
+				"support.function.console",
+				"support.function.json"
 			],
 			"settings": {
 				"foreground": "#ed6a43"
@@ -355,8 +359,7 @@
 				"entity.name.tag.css",
 				"entity.name.tag.scss",
 				"entity.name.tag.less",
-				"entity.name.tag.sass",
-				"entity.other.attribute-name.pseudo-class"
+				"entity.name.tag.sass"
 			],
 			"settings": {
 				"foreground": "#e06c75"
@@ -379,12 +382,16 @@
 			"name": "StyleSheet Property Value",
 			"scope": [
 				"support.constant.css",
+				"support.constant.property-value.css",
 				"support.constant.scss",
+				"support.constant.property-value.scss",
 				"support.constant.less",
-				"support.constant.sass"
+				"support.constant.property-value.less",
+				"support.constant.sass",
+				"support.constant.property-value.sass"
 			],
 			"settings": {
-				"foreground": "#98c379"
+				"foreground": "#c3fa8e"
 			}
 		},
 		{
@@ -433,6 +440,13 @@
 			],
 			"settings": {
 				"foreground": "#56b6c2"
+			}
+		},
+		{
+			"name": "StyleSheet Pseudo Class",
+			"scope": "entity.other.attribute-name.pseudo-class",
+			"settings": {
+				"foreground": "#61afef"
 			}
 		},
 		{

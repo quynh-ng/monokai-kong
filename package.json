@@ -2,33 +2,35 @@
 	"name": "monokai-kong",
 	"displayName": "Monokai Kong",
 	"description": "A more exciting dark theme for Visual Studio Code with Monokai code coloring",
-	"version": "1.0.0",
+	"version": "1.1.0",
+	"categories": [ "Themes" ],
+	"homepage": "https://github.com/quynh-ng/monokai-kong",
 	"publisher": "quynh-ng",
+	"author": "Quynh Nguyen <mr.quynh@outlook.com>",
+	"license": "Apache-2.0",
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/quynh-ng/monokai-kong"
+	},
 	"engines": {
 		"vscode": "^1.13.0"
 	},
-	"categories": [
-		"Themes"
-	],
 	"contributes": {
-		"themes": [
-			{
-				"label": "Monokai Kong",
-				"uiTheme": "vs-dark",
-				"path": "./themes/monokai-kong-color-theme.json"
-			}
-		]
+		"themes": [{
+			"label": "Monokai Kong",
+			"uiTheme": "vs-dark",
+			"path": "./themes/monokai-kong-color-theme.json"
+		}]
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/quynh-ng/monokai-kong.git"
-	},
-	"homepage": "https://github.com/quynh-ng/monokai-kong/blob/master/README.md",
 	"keywords": [
+		"color-theme",
+		"dark-theme",
 		"vscode",
-		"theme",
-		"monokai"
-	],
-	"author": "Quynh Nguyen <mr.quynh@outlook.com>",
-	"license": "Apache 2.0"
+		"vscode-theme",
+		"vscode-dark-theme",
+		"onedark",
+		"monokai",
+		"monokai-kong"
+	]
 }
