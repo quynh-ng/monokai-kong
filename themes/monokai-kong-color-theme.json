@@ -152,26 +152,25 @@
 				"entity.name.class",
 				"entity.name.module",
 				"entity.name.type",
+				"entity.other.inherited-class",
 				"storage.identifier",
 				"support.class",
+				"support.variable.property",
 				"constant.language.import-export-all",
-				"variable.other.readwrite.alias"
+				"meta.import variable.other.readwrite",
+				"variable.other.readwrite.alias",
+				"variable.other.object"
 			],
 			"settings": {
 				"foreground": "#61afef"
 			}
 		},
 		{
-			"name": "Inherited Class",
-			"scope": "entity.other.inherited-class",
-			"settings": {
-				"fontStyle": "underline",
-				"foreground": "#61afef"
-			}
-		},
-		{
 			"name": "Interface",
-			"scope": "entity.name.type.interface",
+			"scope": [
+				"entity.name.type.interface",
+				"entity.other.inherited-class"
+			],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#61afef"
@@ -237,9 +236,13 @@
 			"name": "Embed String Variable",
 			"scope": [
 				"meta.embedded.line punctuation.accessor",
+				"meta.embedded.line punctuation.definition.block",
+				"meta.embedded.line meta.brace.round",
 				"meta.embedded.line variable.other.object",
 				"meta.embedded.line variable.other.property",
-				"meta.embedded.line variable.other.readwrite"
+				"meta.embedded.line variable.other.readwrite",
+				"meta.embedded.line meta.object-literal.key",
+				"meta.embedded.line variable.other.constant.property"
 			],
 			"settings": {
 				"foreground": "#bbbbbb"
