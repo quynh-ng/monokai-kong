@@ -155,7 +155,6 @@
 				"entity.other.inherited-class",
 				"storage.identifier",
 				"support.class",
-				"support.variable.property",
 				"constant.language.import-export-all",
 				"meta.import variable.other.readwrite",
 				"variable.other.readwrite.alias",
