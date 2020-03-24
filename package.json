@@ -2,13 +2,13 @@
 	"name": "monokai-kong",
 	"displayName": "Monokai Kong",
 	"description": "A more exciting dark theme for Visual Studio Code with Monokai code coloring",
-	"version": "1.2.1",
+	"version": "1.3.0",
 	"categories": [ "Themes" ],
 	"homepage": "https://github.com/quynh-ng/monokai-kong",
 	"publisher": "quynh-ng",
 	"author": "Quynh Nguyen <mr.quynh@outlook.com>",
 	"license": "Apache-2.0",
-	"icon": "images/icon.png",
+	"icon": "icon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/quynh-ng/monokai-kong"

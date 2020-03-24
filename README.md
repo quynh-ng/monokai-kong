@@ -13,8 +13,8 @@ ext install quynh-ng.monokai-kong
 
 ## Screenshots
 
-![Screenshot 01](https://github.com/quynh-ng/monokai-kong/raw/master/images/screenshots/ss01.png "Screenshot #01")
-![Screenshot 02](https://github.com/quynh-ng/monokai-kong/raw/master/images/screenshots/ss02.png "Screenshot #02")
+![Screenshot 01](https://github.com/quynh-ng/monokai-kong/raw/master/screenshots-1.png "Screenshot #01")
+![Screenshot 02](https://github.com/quynh-ng/monokai-kong/raw/master/screenshots-2.png "Screenshot #02")
 
 ## Requirements
 
@@ -23,4 +23,4 @@ ext install quynh-ng.monokai-kong
 
 ## License
 
-Apache 2.0, for further details, please see [LICENSE](https://github.com/quynh-ng/monokai-kong/blob/master/LICENSE.md) file
+Apache-2.0, for further details, please see [LICENSE](https://github.com/quynh-ng/monokai-kong/blob/master/LICENSE.md) file
