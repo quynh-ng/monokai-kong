@@ -228,10 +228,11 @@
 			}
 		},
 		{
-			"name": "Object Property Variable",
+			"name": "Object/Property Variable",
 			"scope": [
 				"meta.block variable.other.object.property",
-				"text.html.derivative variable.other.object"
+				"text.html.derivative variable.other.object",
+				"meta.embedded.line variable.other.object"
 			],
 			"settings": {
 				"foreground": "#61afef"
@@ -243,7 +244,6 @@
 				"meta.embedded.line punctuation.accessor",
 				"meta.embedded.line punctuation.definition.block",
 				"meta.embedded.line meta.brace.round",
-				"meta.embedded.line variable.other.object",
 				"meta.embedded.line variable.other.property",
 				"meta.embedded.line variable.other.readwrite",
 				"meta.embedded.line meta.object-literal.key",
